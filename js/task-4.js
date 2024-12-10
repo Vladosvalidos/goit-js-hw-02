@@ -28,3 +28,11 @@ console.log(getShippingCost("China")); // "Shipping to China will cost 100 credi
 console.log(getShippingCost("Chile")); // "Shipping to Chile will cost 250 credits"
 console.log(getShippingCost("Jamaica")); // "Shipping to Jamaica will cost 120 credits"
 console.log(getShippingCost("Sweden")); // "Sorry, there is no delivery to your country"
+
+
+function getLastElementMeta(array) {
+    const newArray = [array.length-1 , array[array.length-1]];
+    return newArray;
+}
+
+console.log(["apple", "peach", "pear", "banana"])
